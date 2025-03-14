@@ -1,6 +1,7 @@
 import React from 'react';
 import musicnames from './music_storage.json';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import axios from 'axios';
 const Musicplus = () => {
