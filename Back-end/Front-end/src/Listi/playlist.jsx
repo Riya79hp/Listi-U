@@ -51,6 +51,7 @@ const Playlist = () => {
 
     const handlePlaylistNameDiv = (name) => {
         navigate(`/playlist/Musicplus/${name}`);
+        
     };
    function handleseesong(name){
         navigate(`/playlist/seesongs/${name}`);
